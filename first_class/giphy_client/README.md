@@ -30,11 +30,10 @@ Para cumplir los objetivos de este proyecto utilice la API de Giphy la cual prov
 
 ## Rutas de GIPHY utilizadas:
 
-  - GET all gifs: api.giphy.com/v1/gifs/trending
-  - GET all stickers: api.giphy.com/v1/stickers/trending
-  - GET search gif: api.giphy.com/v1/gifs/search?q=coffe
-  - GET search stickers: api.giphy.com/v1/stickers/search?q=coffe
-  - GET your own gif: api.giphy.com/v1/gifs/translate?s=coffe
-  - GET your own stickers: api.giphy.com/v1/translate/search?s=coffe
-  - GET random gifs: api.giphy.com/v1/gifs/random
-  - GET random stickers: api.giphy.com/v1/stickers/random
+  - GET [get all gifs](https://api.giphy.com/v1/gifs/trending)
+  - GET [get all stickers](https://api.giphy.com/v1/stickers/trending)
+  - GET [search gifs](https://api.giphy.com/v1/gifs/search?q=coffe)
+  - GET [search stickers](https://api.giphy.com/v1/stickers/search?q=coffe)
+  - GET [create your own gif](https://api.giphy.com/v1/gifs/translate?s=coffe)
+  - GET [create your own stickers](https://api.giphy.com/v1/translate/search?s=coffe)
+  - GET [random gifs](https://api.giphy.com/v1/gifs/random)
