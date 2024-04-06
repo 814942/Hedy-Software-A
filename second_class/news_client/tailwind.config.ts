@@ -18,6 +18,9 @@ const config: Config = {
         },
         black: {
           100: "rgb(6 2 2)"
+        },
+        gray: {
+          100: "rgb(58 69 78)"
         }
       }
     },
