@@ -1,15 +1,15 @@
 enum Categories {
-  business = "business",
-  entertainment = "entertainment",
-  general = "general",
-  health = "health",
-  science = "science",
-  sports = "sports",
-  technology = "technology"
+  business = "Business",
+  entertainment = "Entertainment",
+  general = "General",
+  health = "Health",
+  science = "Science",
+  sports = "Sports",
+  technology = "Technology"
 
 }
 
-const categories = [
+const categories: ICategories[] = [
   {
     id: 1,
     name: Categories.business
