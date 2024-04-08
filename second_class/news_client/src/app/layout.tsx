@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { Petrona } from "next/font/google";
+
+import { NewsProvider } from "@/context/data.context";
+
+import Navbar from "./pages/navbar/Navbar";
+import Footer from "./pages/footer/Footer";
+
 import "./globals.css";
 
 const petrona = Petrona({ subsets: ["latin"] });
@@ -15,8 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={petrona.className}>{children}</body>
+    <html className="scroll-smooth" lang="en">
+      <body className={petrona.className}>
+        <NewsProvider>
+          <Navbar />
+            {children}
+          <Footer />
+        </NewsProvider>
+      </body>
     </html>
   );
 }

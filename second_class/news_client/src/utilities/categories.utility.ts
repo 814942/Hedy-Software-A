@@ -1,3 +1,5 @@
+import { ICategories } from "@/interfaces/global.interfaces"
+
 enum Categories {
   business = "Business",
   entertainment = "Entertainment",
