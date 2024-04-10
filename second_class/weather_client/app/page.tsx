@@ -10,7 +10,6 @@ import { ICity, ICityDetails } from "@/interfaces/city.interfaces";
 import LandingPage from "./pages/landing/LandingPage";
 import transformData from "@/utils/transform_data.util";
 import CityCard from "./pages/cityCard/CityCard";
-import { ToastContainer, toast } from "react-toastify";
 
 export default function Home() {
   const { fetchData, data, error } = useApi<any>()
