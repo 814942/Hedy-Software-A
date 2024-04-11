@@ -13,7 +13,9 @@ const config: Config = {
           100: "rgb(255 253 249)"
         },
         primary: "rgb(232 107 140)",
-        secondary: "rgb(232 107 215)"
+        secondary: "rgb(134 200 188)",
+        terciary: "rgb(135 195 210)",
+        gray: "rgb(75 85 99)"
       }
     },
   },
