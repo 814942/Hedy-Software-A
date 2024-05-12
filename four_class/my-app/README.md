@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Proyecto Clase tres:
+  -Investigar sobre el funcionamiento de Route Handlers dinámicos.
+  -Crear un proyecto que consista por lo menos de una sola vista, en la cual se tiene que desplegar tarjetas que contengan un nombre y un comentario utilizando un route handler con el verbo GET (estos recursos pueden venir de una mockapi o de un archivo local en el proyecto, por ejemplo data.ts).
+  -Tiene que haber un formulario en el fondo de la pagina que me permita agregar comentarios extra a traves de un route handler POST.
+  -Finalmente agregar un route handler dinamico que me permita renderizar un recurso en especifico utilizando una id.
 
-## Getting Started
+## Restricciones tecnológicas:
+  -Si o si se debe utilizar NextJS 14.
+  -No crear un servidor externo a la aplicación
 
-First, run the development server:
+## Restricciones de trabajo:
+  -Tiene que ser realizado individualmente
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas:
+  - React
+  - Next
+  - Typescript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

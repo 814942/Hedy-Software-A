@@ -5,7 +5,6 @@ import NewComment from "./component/NewComment";
 import Modal from "./component/Modal";
 import { getData } from "@/services/get-data";
 import { IComments } from "@/interfaces/comment.interface";
-import Comment from "./component/Comment";
 
 export default function Home() {
   const [user, setUser] = useState<string>("")
